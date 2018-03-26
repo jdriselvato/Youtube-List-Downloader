@@ -1,6 +1,5 @@
 #!/bin/bash
 clear
-echo "\n"
 
 input="urls"
 inputArray=()
