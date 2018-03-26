@@ -16,11 +16,15 @@ Then the script will start Youtube-dl and download the videos in the folder of y
 
 If you wish to have this as a command in terminal simple add it to `.base_profile`
 
-``
+```
 alias yt-playlist="/PATH_TO_SCRIPT/youtube-playlist-creator.sh"
-``
+```
 
 To run simply type the following in the folder you wish the youtube videos to download to
 ```
 $ yt-playlist
 ```
+
+# Requirements
+
+Requires `youtube-dl`, More here: https://rg3.github.io/youtube-dl/
