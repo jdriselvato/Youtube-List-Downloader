@@ -32,6 +32,6 @@ then
 	cd "$timestamp"
 
 	echo "Starting download..."
-	youtube-dl -ct --batch-file='../list.txt'
+	youtube-dl -ct --batch-file='../list.txt' -f 'bestvideo[ext!=webm]+bestaudio[ext!=webm]/best[ext!=webm]'
 
 fi
